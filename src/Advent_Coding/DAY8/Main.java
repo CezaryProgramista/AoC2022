@@ -1,4 +1,4 @@
-package DAY8;
+package Advent_Coding.DAY8;
 
 import java.io.File;
 import java.io.FileReader;
