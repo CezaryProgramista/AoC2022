@@ -19,7 +19,7 @@ public class Main {
         int movesDone = 1;
         //                      i   y
 //        rozmiar tab 620
-        int[][] tab = new int[50][50];
+        int[][] tab = new int[620][620];
         int head = 9;
         int tail = 5;
         int moves = 0;
@@ -127,7 +127,7 @@ public class Main {
         for (int[] ints : tab) {
             System.out.println();
             for (int j = 0; j < tab.length; j++) {
-                if (ints[j] == 0||ints[j]==9) {
+                if (ints[j] == 0) {
                     System.out.print(".");
                 } else {
                     System.out.print(ints[j]);
